@@ -11,12 +11,6 @@
       "text": "Tarea 4",
       "day": "Marzo 1 a las 13:00",
       "reminder": false
-    },
-    {
-      "id": 5,
-      "text": "Tarea 5",
-      "day": "Marzo 1 a las 13:00",
-      "reminder": false
     }
   ]
 }

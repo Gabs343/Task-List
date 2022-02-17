@@ -1,10 +1,10 @@
-<div class="task">
+<div class="task" [ngClass]="{reminder: task.reminder}" (click)="onToggle(task)">
     <h3>
         {{task.text}} 
         <app-button 
         color="red" 
         text="Delete"
-        (click) = "deleteTask(task)">
+        (btnClick) = "deleteTask(task)">
         </app-button>
     </h3>
     <p>
