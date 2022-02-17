@@ -1,9 +1,13 @@
 <div class="task">
     <h3>
         {{task.text}} 
-        <fa-icon 
-        [ngStyle] = "{'color': 'red'}">
-        </fa-icon>
+        <app-button 
+        color="red" 
+        text="Delete"
+        (btnClick) = "deleteTask()">
+        </app-button>
     </h3>
-    <p>{{task.day}}</p>
+    <p>
+        {{task.day}}
+    </p>
 </div>
