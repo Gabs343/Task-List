@@ -11,6 +11,12 @@
       "text": "Tarea 4",
       "day": "Marzo 1 a las 13:00",
       "reminder": false
+    },
+    {
+      "text": "Nueva Tarea",
+      "day": "Mañana",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
